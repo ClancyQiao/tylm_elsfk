@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>俄罗斯方块</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-info">
+            <p>分数: <span id="score">0</span></p>
+            <p>下一个方块:</p>
+            <canvas id="next-block" width="80" height="80"></canvas>
+            <p>游戏状态: <span id="game-status">进行中</span></p>
+        </div>
+        <canvas id="game-canvas" width="600" height="800"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
